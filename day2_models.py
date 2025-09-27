@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models #include
 
 class product(models.Model):
     sku=models.CharField(max_length=10,primary_key=True)
